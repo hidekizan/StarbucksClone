@@ -1,0 +1,161 @@
+/* Mini reset */
+
+*{
+    margin: 0; /* Espaçamento, distância da borda para fora */
+    padding: 0; /* Espaçamento, distância da borda para dentro */
+    border: 0; 
+    box-sizing: border-box; /* Utiliza espaço interno, mantém tamanho width e height */
+}
+
+/* 
+# - Seletor por ID
+Div - Seletor por nome da TAG
+. - Seletor por classe
+*/
+
+.area-header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 4px 6px -6px #000;
+}
+
+body{
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.area-logo{
+    height: 100%;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area-logo img{
+    width: 60px;
+    height: 60px;
+}
+
+.area-nav{
+    height: 100%;
+    flex: 1;
+}
+
+.nav-list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.nav-list-item{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1E3932;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.nav-list-item:hover{
+    color: #0B8750;
+    cursor: pointer;
+}
+
+.area-nav-history{
+    height: 100%;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-history-img{
+    width: 100px;
+}
+
+.nav-store-locatin{
+    width: 160px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-area{
+    background-image: url(../images/banner01.jpg);
+    height: 428px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    width: 75%;
+}
+
+.banner-text-left{
+    margin-top: 30px;
+    width: 100%;
+    height: 428px;
+    border: solid 1px red;
+    display: flex;
+}
+
+.banner-text{
+    background-color: #D4E9E2;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.banner-area-right{
+    width: 50%;
+}
+
+.banner-btn-area{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner-img-area-right img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.banner-btn-area a{
+    padding: 10px 18px;
+    border: 2px solid #1E3932;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.banner-text-area{
+    height: 100%;
+    width: 60%;
+    padding: 32px;
+    display: flex;
+    align-items: end;
+    color: #fff;
+    font-size: 64px;
+    text-orientation: uppercase;
+}
